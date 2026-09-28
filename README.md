@@ -1,0 +1,2 @@
+# SolarCal
+Home Assistant SolarCal
