@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Solar Savings Setup",
+        "description": "Map your solar sensors and set your electricity rate.",
+        "data": {
+          "solar_power_sensor": "Live Solar Power Sensor (Watts)",
+          "solar_energy_today": "Daily Solar Energy Sensor (kWh or Wh)",
+          "solar_energy_month": "Monthly Solar Energy Sensor (kWh or Wh)",
+          "electricity_rate": "Electricity Rate (per kWh)",
+          "setup_cost": "Solar Setup Cost (total to pay off)",
+          "currency_symbol": "Currency Symbol (e.g. £, $, €)"
+        }
+      }
+    },
+    "error": {
+      "entity_not_found": "Entity not found in Home Assistant. Check the entity ID."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Solar Savings Options",
+        "data": {
+          "solar_power_sensor": "Live Solar Power Sensor (Watts)",
+          "solar_energy_today": "Daily Solar Energy Sensor (kWh or Wh)",
+          "solar_energy_month": "Monthly Solar Energy Sensor (kWh or Wh)",
+          "electricity_rate": "Electricity Rate (per kWh)",
+          "setup_cost": "Solar Setup Cost (total to pay off)",
+          "currency_symbol": "Currency Symbol"
+        }
+      }
+    },
+    "error": {
+      "entity_not_found": "Entity not found in Home Assistant."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Solar Savings Setup",
+        "description": "Map your solar sensors and set your electricity rate and setup cost.",
+        "data": {
+          "solar_power_sensor": "Live Solar Power Sensor (Watts)",
+          "solar_energy_today": "Daily Solar Energy Sensor (kWh or Wh)",
+          "solar_energy_month": "Monthly Solar Energy Sensor (kWh or Wh)",
+          "electricity_rate": "Electricity Rate per kWh",
+          "setup_cost": "Total Solar Setup Cost to Pay Off",
+          "currency_symbol": "Currency Symbol (£, $, €, etc.)"
+        }
+      }
+    },
+    "error": {
+      "entity_not_found": "That entity was not found. Please check the entity ID and try again."
+    },
+    "abort": {
+      "already_configured": "Solar Savings is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update Solar Savings Settings",
+        "data": {
+          "solar_power_sensor": "Live Solar Power Sensor (Watts)",
+          "solar_energy_today": "Daily Solar Energy Sensor (kWh or Wh)",
+          "solar_energy_month": "Monthly Solar Energy Sensor (kWh or Wh)",
+          "electricity_rate": "Electricity Rate per kWh",
+          "setup_cost": "Total Solar Setup Cost to Pay Off",
+          "currency_symbol": "Currency Symbol"
+        }
+      }
+    },
+    "error": {
+      "entity_not_found": "That entity was not found."
+    }
+  }
+}
